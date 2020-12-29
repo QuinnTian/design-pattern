@@ -7,7 +7,7 @@ package case2;
  * @since
  */
 public class SingletonUnSafe {
-    public static  SingletonUnSafe singletonUnSafe = new SingletonUnSafe();
+    public static  SingletonUnSafe singletonUnSafe = null;
     public SingletonUnSafe(){}
     public static SingletonUnSafe singletonUnSafe(){
         if( singletonUnSafe == null){

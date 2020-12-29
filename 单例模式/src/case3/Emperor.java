@@ -13,7 +13,7 @@ public class Emperor {
     /*定义能够产生最多的单例的数目*/
     private  static int maxNumOfEmperor = 2;
     /*定义每个皇帝的名字*/
-    private static ArrayList<String> nameList = new ArrayList<>();
+    private static ArrayList<String> nameList = new ArrayList<>();//高并发下使用vector
     /*定义一个列表容纳所有皇帝的实例*/
     private static ArrayList<Emperor> emperorArrayList = new ArrayList<>();
     /*当前皇帝的序列号*/
