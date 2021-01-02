@@ -1,25 +1,24 @@
+package case1;
+
 /**
  * <pre></pre>
  *
  * @author QuinnTian
  * @since
  */
-public class FemaleFactory implements HumanFactory {
+public class MaleFactory implements HumanFactory {
     @Override
     public Human createYellowHuman() {
-
-        return new FemaleYellowHuman();
+        return new MaleYellowHuman();
     }
 
     @Override
     public Human createWhiteHuman() {
-
-        return new FemaleWhiteHuman();
+        return new MaleWhiteHuman();
     }
 
     @Override
     public Human createBlackHuman() {
-
-        return new FemaleBlackHuman();
+        return new MaleBlackHuman();
     }
 }

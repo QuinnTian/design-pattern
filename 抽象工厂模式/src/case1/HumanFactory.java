@@ -1,3 +1,5 @@
+package case1;
+
 /**
  * <pre>八卦炉之定义</pre>
  *
